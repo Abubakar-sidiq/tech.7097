@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; /* White background */
+  color: #000000; /* Black text color */
+  text-align: center; /* Center align all text */
+}
+
+header {
+  background-color: #5c5cde; /* Blue header background */
+  color:burlywood ;
+  padding: 20px;
+  font-size: larger;
+  font-style: oblique;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Navigation Styles */
+nav {
+  background-color: aliceblue; /* Black navigation background */
+  padding: 10px;
+  margin-top: 10px; /* Add margin to separate from header */
+  border-radius: 5px;
+}
+nav a {
+  text-decoration: underline;
+  color: blue; /* White navigation text color */
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  font-size: larger;
+  font-style: italic;
+  transition: background-color 0.3s ease;
+}
+nav a:hover {
+  background-color: #333333; /* Darker gray on hover */
+}
+
+/* Section Styles */
+section {
+  padding: 20px;
+}
+
+/* Home Section Styles */
+#home {
+  background-color: rgb(58, 41, 188);
+}
+#home h1 {
+  color: #000000; /* Black heading color */
+  margin-bottom: 20px;
+  text-decoration: underline;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: xx-large;
+}
+#home p {
+  color: #f9f0f0; /* Dark gray paragraph color */
+  font-style: oblique;
+  font-size: large;
+}
+
+/* Courses Section Styles */
+#courses {
+  background-color: #87ceeb; /* Sky blue courses section background */
+}
+#courses h2 {
+  color: #000000; /* Black heading color */
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+#courses ul {
+  list-style-type: square;
+  padding: 0px;
+}
+#courses li {
+  color: #333333; /* Dark gray list item color */
+  margin-bottom: 10px;
+}
+
+/* About Section Styles */
+#about {
+  background-color: #433baf; /* Black about section background */
+}
+#about h2 {
+  color: #ffffff; /* White heading color */
+  margin-bottom: 0px;
+}
+#about p {
+  color: #f0f8ff; /* Light blue paragraph color */
+}
+
+#contact {
+  background-color: #1e90ff; /* Blue contact section background */
+}
+#contact h2 {
+  color: #ffffff; /* White heading color */
+  margin-bottom: 20px;
+}
+#contact p {
+  color: #c4ccd1; /* Black paragraph color */
+}
+
+footer {
+  background-color: #22389a; /* Black footer background */
+  color: #ffffff; /* White text color */
+  padding: -10px;
+  position: fixed;
+  bottom: 0;
+  width: 200%;
+}
+
+header img {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
